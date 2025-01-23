@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+div {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.QR-Image {
+  margin: 10px 0;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.input-label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.gen-btn, .download {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(15, 196, 209);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gen-btn:hover, .download:hover {
+  background-color: skyblue;
+}
+
+.gen-btn:active, .download:active {
+  background-color: rgb(145, 145, 52);
+}
+
+.download {
+  background-color: #a77028;
+}
+
+.download:hover {
+  background-color: #215688;
+}
+
+.download:active {
+  background-color: #7e1e4b;
+}
+
+p {
+  font-size: 14px;
+  color: #999;
+}
